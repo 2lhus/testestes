@@ -132,11 +132,11 @@ INSERT INTO [dbo].[movies] ([title], [synopsis], [duration_mins], [release_date]
 ('Dune: Part Two', 'Paul Atreides unites with the Fremen on a path of revenge and destiny.', 166, '2024-03-01', 'English', 'PG-13');
 
 INSERT INTO [dbo].[users] ([full_name], [email], [password_hash], [phone], [created_at], [status]) VALUES
-('HUSAM ABBAAS', 'husam.abbaas@example.com', 'hash_husam123', '+971501111111', '2026-04-01 10:00:00', 'active'),
-('MOHAMMED TAREQ', 'mohammed.tareq@example.com', 'hash_tareq123', '+971502222222', '2026-04-02 11:15:00', 'active'),
-('MOHAMMED ALAILA', 'mohammed.alaila@example.com', 'hash_alaila123', '+971503333333', '2026-04-03 09:30:00', 'active'),
-('ABDULRAHMAN AWNI', 'abdulrahman.awni@example.com', 'hash_awni123', '+971504444444', '2026-04-03 14:20:00', 'active');
-
+('HUSAM ABBAAS', '20483@hu.ac.ae', '$2y$07$xmOeG/XbZbUTeL8TJ9Gln.vAqfWNUSNkcdWmc.sY702KFbQZGv42S', '+971501111111', '2025-04-07 10:13:31', 'active'),
+('MOHAMMED TAREQ', '20379@hu.ac.ae', '$2y$07$L2OrtyZyD7Piunx8J1eVKOmeTGl08f/aamG3l5Ax9mppB1N/.uIBi', '+971502222222', '2025-04-07 10:15:49', 'active'),
+('MOHAMMED ALAILA', '20342@hu.ac.ae', '$2y$07$dK/iqM1RNHWEAQa8UR6gP.WNkd61rLL9TRoJZ9SETyYdTctAwulae', '+971503333333', '2025-04-07 10:19:23', 'active'),
+('ABDULRAHMAN AWNI', '20326@hu.ac.ae', '$2y$07$R02ufhrGznMTEJCYpRP/oOiJmAtjUAoRoWmKIDD5awpI/wsjGeGra', '+971504444444', '2025-04-07 10:20:39', 'active'),
+('KHALID AHMED', '20418@hu.ac.ae', '$2y$07$VoBU8CEFhAj0O73yrgTLHeh4LiPxZ.ccGj9jDSCTutBDOLkIp.CGC', '+971504444444', '2025-04-07 10:29:39', 'active');
 INSERT INTO [dbo].[auditoriums] ([cinema_id], [auditorium_name]) VALUES
 (1, 'Screen 1'),
 (1, 'Screen 2'),
